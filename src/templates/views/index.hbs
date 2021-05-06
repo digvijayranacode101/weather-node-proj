@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href=".img/weather.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    {{>header}}
+    {{!-- <h1>Handlbar</h1> --}}
+    <p> {{name}} </p>
+    <p> {{>footer}} </p>
+    
+    <form action="">
+        <input id="inputID" type="text" placeholder="Location to search">
+        <button>Search</button>
+    </form>
+
+    <p id="msg1"></p>
+    <p id="msg2"></p>
+
+</body>
+<script src="./JS/app.js"></script>
+</html>
